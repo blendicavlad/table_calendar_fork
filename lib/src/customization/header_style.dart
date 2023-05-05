@@ -79,6 +79,8 @@ class HeaderStyle {
   /// Decoration of the header.
   final BoxDecoration decoration;
 
+  final EdgeInsets titlePadding;
+
   /// Creates a `HeaderStyle` used by `TableCalendar` widget.
   const HeaderStyle({
     this.titleCentered = false,
@@ -95,6 +97,7 @@ class HeaderStyle {
     this.headerPadding = const EdgeInsets.symmetric(vertical: 8.0),
     this.formatButtonPadding =
         const EdgeInsets.symmetric(horizontal: 10.0, vertical: 4.0),
+    this.titlePadding = const EdgeInsets.symmetric(vertical: 8.0),
     this.leftChevronPadding = const EdgeInsets.all(12.0),
     this.rightChevronPadding = const EdgeInsets.all(12.0),
     this.leftChevronMargin = const EdgeInsets.symmetric(horizontal: 8.0),
